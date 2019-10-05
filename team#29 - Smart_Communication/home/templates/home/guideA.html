@@ -14,47 +14,56 @@
 
     <link rel="stylesheet" href="main.css">
 
+    <meta http-equiv="refresh" content="10"/>
+
 </head>
 
 
 
 <body>
 
-    <header>
+    
 
-        <h1>Project Ka Name</h1>
+    <h1>
 
-    </header>
-
-    <main>
-
-        <p>Yaha pai kuch aur high figh cheez hogi - <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit molestiae itaque facere totam saepe tempore
-
-            esse temporibus, quae reprehenderit aliquid iusto ea laborum, iure eligendi odio exercitationem sapiente
-
-            illum quos.</p>
+    from 2 user
+    </h1>
 
 
+        
+ <form method="POST" action="">
+        
+        {% csrf_token %}
+        <div>
+            {{form.as_p}}
+        </div>
+        <button type="submit">
+            submit
+        </button>
+</form>
+<div class="new">
+        
+        <ul class="message">
+{% for i in msg %}
+<h1>
+    {{i}}
+</h1>
+{% endfor %}
+        </ul>
+        
 
-        <p><button id="btnStart">START RECORDING</button><br />
-
-            <button id="btnStop">STOP RECORDING</button></p>
-
+    </div> 
+ 
 
 
-        <video controls></video>
-
-
-
-        <video id="vid2" controls></video>
 
 
 
         <!-- could save to canvas and do image manipulation and saving too -->
 
-    </main>
+  
 
-    <script>
+    {% comment %} <script>
 
 
 
@@ -242,7 +251,7 @@
 
         *********************************/
 
-    </script>
+    </script> {% endcomment %}
 
 </body>
 
