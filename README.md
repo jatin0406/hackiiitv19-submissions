@@ -36,7 +36,7 @@ Actum has a ML script running in the Django backend which will detect the gestur
 			<li><a href="https://github.com/amanraj1608">Aman Raj</a></li>
 			<li><a href="https://github.com/dixitaniket">Aniket Dixit</a></li>
 		  <li><a href="https://github.com/fuzious">Arpit Srivastava</a></li>
-			<li><a href="https://github.com/">Jatin Singh Chauhan</a></li>
+			<li><a href="https://github.com/jatin0406">Jatin Singh Chauhan</a></li>
       <li><a href="https://github.com/">Souhard Swami</a></li>
 		</ul>
 </details>
